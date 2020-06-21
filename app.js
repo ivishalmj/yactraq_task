@@ -15,6 +15,10 @@ mongoose.connect("mongodb://loginDB:loginDB@localhost:27017/loginDB",{ useNewUrl
 .then(()=>console.log('connected to DB'))
 .catch(err=>console.log(err));
 //EJS
+
+
+
+
 app.use(expressLayout);
 app.set('view engine', 'ejs');
 
